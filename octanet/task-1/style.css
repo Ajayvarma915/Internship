@@ -1,0 +1,130 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.navbar_container{
+    height: 80px;
+    background-color: rgb(1, 0, 0);
+    width: 100%;
+}
+.navbar{
+    width: 96%;
+    display: flex;
+    align-items: center;
+    height: 100%;
+    margin: auto;
+    color: rgb(245, 245, 245);
+    margin-left: 103px;
+    font-size: 26px;
+}
+.nav_right_side{
+    display: flex;
+    align-items: center;
+    width: 800px;
+    height: 80px;
+    position: absolute;
+    right: 0;
+    justify-content: space-evenly;
+}
+button{
+    height: 45px;
+    width: 115px;
+    background-color: #ed5651;
+    border-radius: 5px;
+    box-shadow: 0 0 20px rgb(255, 0, 0);
+}
+button:hover{
+    cursor: pointer;
+}
+button a{
+    text-decoration: none;
+    font-size: 18px;
+    color: azure;
+}
+.border_white{
+    border: 2px solid transparent;
+}
+.border_white:hover{
+    border: 2px solid whitesmoke;
+}
+footer{
+    position: absolute;
+    bottom: 0;
+    background-color: black;
+    width: 100%;
+    color: white;
+    height: 30px;
+    text-align: center;
+}
+footer p{
+    position: relative;
+    top: 5px;
+    font-size: 20px;
+}
+
+/* --------------------------------------main-container-------------------------------------------- */
+.main_container{
+    height: 800px;
+    background-color:black;
+    width: 100%;
+    display: flex;
+}
+.content_container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(46, 43, 43, 0.004);
+    color: white;
+}
+.gym_name{
+    font-size: 49.3px;
+    position: relative;
+    width: 100%;
+    top: -180px;
+    left: 83px;
+}
+.image_container{
+    background: url('/images/background_img_2.jpg');
+    height: 90%;
+    width: 100%;
+    position: absolute;
+    left: 1250px;
+    background-repeat: no-repeat;
+    background-position-y: -10px;
+    background-color: black;
+    background-size: contain;
+}
+.Join_Now{
+    background-color: rgb(217, 32, 32);
+    position: absolute;
+    left: 535px;
+    bottom: 400px;
+    font-size: 16px;
+    font-weight: 700;
+    border-radius: 0%;
+    box-shadow: none;
+    width: 120px;
+}
+.quotation{
+    position: relative;
+    top: -80px;
+    right: 745px;
+    font-size: 28px;
+    width: 100%;
+}
+.logo_img{
+    position: relative;
+    left: 82px;
+    top: -170px;
+    background: url('/images/logo.png');
+    background-color: black;
+    background-position-x: -10px;
+    background-position-y: -10px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 100px;
+    width: 400px;
+}
