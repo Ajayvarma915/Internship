@@ -87,7 +87,7 @@ footer p{
     left: 83px;
 }
 .image_container{
-    background: url('/images/background_img_2.jpg');
+    background: url('images/background_img_2.jpg');
     height: 90%;
     width: 100%;
     position: absolute;
@@ -119,7 +119,7 @@ footer p{
     position: relative;
     left: 82px;
     top: -170px;
-    background: url('/images/logo.png');
+    background: url('images/logo.png');
     background-color: black;
     background-position-x: -10px;
     background-position-y: -10px;
